@@ -1,0 +1,45 @@
+# ===== Keil / MDK 编译输出 =====
+Objects/
+Listings/
+Debug/
+Release/
+build/
+*.uvguix.*
+*.uvoptx
+*.dep
+*.bak
+*.ddk
+*.edk
+*.lst
+*.lnp
+*.mpf
+*.mpj
+*.obj
+*.omf
+*.plg
+*.rpt
+*.tmp
+*.__i
+*.crf
+*.d
+*.o
+*.axf
+*.hex
+*.bin
+*.elf
+*.map
+*.sct
+*.htm
+build.log
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+
+# ===== 编译出来的调试工具（源码在 tools/pc_debug/）=====
+tools/pc_debug/*.exe
+
+# ===== 调试器 =====
+JLinkLog.txt
+JLinkSettings.ini

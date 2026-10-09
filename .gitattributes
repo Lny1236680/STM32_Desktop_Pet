@@ -1,0 +1,3 @@
+# 统一换行符：二进制文件 git 会自动识别（text=auto），文本一律按 LF 存库。
+# 目的：Keil(Windows, CRLF) 和 WSL(git) 之间来回编辑时，不再产生满屏的"假改动"。
+* text=auto
